@@ -7,7 +7,7 @@ const pages=[
 
 const byImage=new Map();
 const MIN_WIDTH=2560;
-const MIN_HEIGHT=1440;
+const MIN_HEIGHT=1440;\nconst MIN_ASPECT=1.5;\nconst MAX_ASPECT=2.0;
 
 function cleanName(pathname){
   return decodeURIComponent(pathname.split("/").pop()||"")
